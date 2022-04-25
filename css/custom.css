@@ -1,0 +1,10 @@
+.xp img{
+    height: 118px;
+    width: 118px;
+    padding: 0, 0, 0, 1em;
+}
+
+.name{
+    font-size: 3em;
+    font-weight: bold;
+}

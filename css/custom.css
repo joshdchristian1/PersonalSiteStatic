@@ -1,10 +1,53 @@
 .xp img{
     height: 118px;
     width: 118px;
-    padding: 0, 0, 0, 1em;
+    padding: 1em;
 }
 
 .name{
     font-size: 3em;
     font-weight: bold;
 }
+
+
+section.classmate img{
+    height: 450px;
+    width: 300px;
+    border: 5px solid lightblue;
+    border-radius: 10px;
+}
+
+.navbarbg{
+    background-color: #263f57 !important;
+}
+
+.font-color-blue{
+    color: rgb(37, 40, 189);
+}
+
+.column-left{
+    float: left;
+    width: 50%;
+}
+.column-right{
+    float: right;
+    width: 50%;
+}
+.row-after{
+    clear: both;
+}
+.text-size{
+    font-size:medium;
+}
+.text-size-xlarge{
+    font-size: x-large;
+}
+.ul-padding{
+    padding-left: 4em;
+    font-weight: bold;
+    
+}
+.clear-float{
+    clear: both;
+}
+

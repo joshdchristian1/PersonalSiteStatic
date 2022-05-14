@@ -11,7 +11,7 @@
 
 
 section.classmate img{
-    height: 450px;
+    height: 400px;
     width: 300px;
     border: 5px solid lightblue;
     border-radius: 10px;
@@ -69,3 +69,9 @@ section.classmate img{
     line-height: inherit;
     white-space: nowrap;
   }
+
+  .logo{
+    height: .5em !important;
+    width: 1em !important;
+    padding: 1em !important;
+}

@@ -111,27 +111,27 @@ h6, .h6 {
 }
 
 .btn-primary {
-  background: #41228e;
+  background: #263f57 ;
   color: #fff;
 }
 .btn-primary:active {
-  background: #542cb7 !important;
+  background: #263f57  !important;
 }
 .btn-primary:hover {
-  background: #542cb7;
+  background: #263f57 ;
 }
 .btn-primary.focus, .btn-primary.active {
-  background: #542cb7 !important;
+  background: #263f57  !important;
   box-shadow: none !important;
 }
 
 .btn-transparent {
   background: transparent;
-  color: #41228e;
+  color: #263f57 ;
   font-weight: bold;
 }
 .btn-transparent:active, .btn-transparent:hover {
-  color: #41228e;
+  color: #263f57 ;
 }
 
 body {
@@ -407,21 +407,21 @@ textarea.form-control {
 
 /* /card */
 .navigation {
-  padding: 40px 130px;
+  padding: 20px 130px;
   transition: 0.3s ease;
 }
 .navigation.nav-bg {
   background-color: #41228e;
-  padding: 15px 100px;
+  padding: 10px 100px;
 }
 @media (max-width: 991px) {
   .navigation.nav-bg {
-    padding: 15px 20px;
+    padding: 10px 20px;
   }
 }
 @media (max-width: 991px) {
   .navigation {
-    padding: 20px;
+    padding: 15px;
     background: #41228e;
   }
 }

@@ -51,3 +51,21 @@ section.classmate img{
     clear: both;
 }
 
+.bg-prime {
+    background: #263f57  !important;
+  }
+
+  .customnavigation {
+    padding: 20px 130px;
+    transition: 0.3s ease;
+  }
+
+  .navbar-brand-custom {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+  }

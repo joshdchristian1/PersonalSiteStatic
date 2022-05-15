@@ -33,9 +33,9 @@ FACEBOOK: https://www.facebook.com/themefisher
   <!-- Mobile Specific Metas
   ================================================== -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Creative Portfolio Template">
+  <meta name="description" content="Developer's Page">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <meta name="author" content="Themefisher">
+  <meta name="author" content="Josh Christian">
   <meta name="generator" content="Themefisher Kross Template v1.0">
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
@@ -47,6 +47,7 @@ FACEBOOK: https://www.facebook.com/themefisher
   <link rel="stylesheet" href="plugins/slick/slick.css">
   <!-- themefy-icon -->
   <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="aos/aos.css">
 
   <!-- Main Stylesheet -->
   <link href="css/style.css" rel="stylesheet">
@@ -87,13 +88,17 @@ FACEBOOK: https://www.facebook.com/themefisher
   </nav>
 </header>
 
+<main style="background-image: url(images/backgrounds/education-bg.png);">
 <!-- hero area -->
 <!-- <section class="hero-area bg-primary" id="parallax"> -->
+  
   <section class="hero-area bg-prime" id="parallax">
   <div class="container">
     <div class="row">
       <div class="col-lg-11 mx-auto">
-        <h1 class="text-white font-tertiary">Josh Christian <br> Full Stack Developer</h1>
+        <h1 class="text-white font-tertiary">Josh Christian</h1>
+        
+        <h1 class="text-white font-tertiary" id="typing"></h1>
       </div>
     </div>
   </div>
@@ -126,30 +131,34 @@ FACEBOOK: https://www.facebook.com/themefisher
   </div> -->
   <!-- social icon -->
   <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
-    <li class="mb-3"><a class="text-white" href="https://themefisher.com/"><i class="ti-facebook"></i></a></li>
-    <li class="mb-3"><a class="text-white" href="https://themefisher.com/"><i class="ti-instagram"></i></a></li>
-    <li class="mb-3"><a class="text-white" href="https://themefisher.com/"><i class="ti-dribbble"></i></a></li>
-    <li class="mb-3"><a class="text-white" href="https://themefisher.com/"><i class="ti-twitter"></i></a></li>
+    <li class="mb-3"><a class="text-white" href="https://www.linkedin.com/in/joshua-christian-a260aaba/"><i class="ti-linkedin"></i></a></li>
+    <li class="mb-3"><a class="text-white" href="https://github.com/joshdchristian1"><i class="ti-github"></i></a></li>
+    <!-- <li class="mb-3"><a class="text-white" href="https://themefisher.com/"><i class="ti-dribbble"></i></a></li>
+    <li class="mb-3"><a class="text-white" href="https://themefisher.com/"><i class="ti-twitter"></i></a></li> -->
   </ul>
   <!-- /social icon -->
 </section>
 <!-- /hero area -->
-
 <!-- about -->
-<section class="section">
+
+<section class="section" style="background-image: url(images/backgrounds/education-bg.png);">
+  
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto text-center">
+       
         <p class="font-secondary paragraph-lg text-dark">“The day I stop giving is the day I stop receiving. The day I stop learning is the day I stop growing. You miss 100% of the shots you don’t take.” – Wayne Gretzky</p>
         <!-- <a href="about.html" class="btn btn-transparent">know more</a> -->
       </div>
     </div>
   </div>
+  
 </section>
+
 <!-- /about -->
 
 <!-- skills -->
-<section class="section">
+<section class="section skills-icon skills-font">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -157,46 +166,93 @@ FACEBOOK: https://www.facebook.com/themefisher
       </div>
       <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
         <div class="card shadow text-center">
-          <div class="position-relative rounded-top progress-wrapper" data-color="#fdb157">
-            <div class="wave" data-progress="50%"></div>
-          </div>
+          <img src="/images/icons/front.png" alt="Computer Icon">
+          <!-- <div class="position-relative rounded-top progress-wrapper" data-color="#fdb157"> -->
+            <!-- <div class="wave" data-progress="50%"></div> -->
+          <!-- </div> -->
           <div class="card-footer bg-white">
-            <h4 class="card-title">Front End:  HTML5, JavaScript, jQuery, jQueryUI, CSS3, Responsive/Mobile Web Development, Bootstrap, ReactJS</h4>
+            <h3 class="card-title pb-2">Front End:</h3>
+            <ul class="li-padding text-left" style="list-style-type: disc;">
+           
+            <li>HTML5</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>jQueryUI</li>
+            <li>CSS3</li>
+            <li>Responsive/Mobile Web Development</li>
+            <li>Bootstrap</li>
+            <li>ReactJS</li>
+          </ul>
+       
           </div>
         </div>
       </div>
       <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
         <div class="card shadow text-center">
-          <div class="position-relative rounded-top progress-wrapper" data-color="#9473e6">
+          <img src="/images/icons/middle.png" alt="Computer Coding Icon">
+          <!-- <div class="position-relative rounded-top progress-wrapper" data-color="#9473e6">
             <div class="wave" data-progress="50%"></div>
-          </div>
+          </div> -->
           <div class="card-footer bg-white">
-            <h4 class="card-title">Middle Tier:  C#, .NET Core MVC, LINQ, EF, Razor Pages</h4>
+            <h3 class="card-title pb-2">Middle Tier:</h3>
+            
+            <ul class="li-padding text-left" style="list-style-type: disc;">
+             
+              <li>C#</li>
+              <li>.NET Core MVC</li>
+              <li>LINQ</li>
+              <li>EF</li>
+              <li>Razor Pages</li>
+              </ul>
+          
           </div>
         </div>
       </div>
       <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
         <div class="card shadow text-center">
-          <div class="position-relative rounded-top progress-wrapper" data-color="#bdecf6">
+          <img src="/images/icons/backend.png" alt="Binary code">
+          <!-- <div class="position-relative rounded-top progress-wrapper" data-color="#bdecf6">
             <div class="wave" data-progress="50%"></div>
-          </div>
+          </div> -->
           <div class="card-footer bg-white">
-            <h4 class="card-title">Back End:  ADO.NET, SQL, SQL Server</h4>
+            <h3 class="card-title pb-2">Back End:</h3>
+            
+            <ul class="li-padding text-left" style="list-style-type: disc;">
+              
+              <li>ADO.NET</li>
+              <li>SQL</li>
+              <li>SQL Server</li>
+             
+              </ul>
+          </h5>
           </div>
         </div>
       </div>
       <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
         <div class="card shadow text-center">
-          <div class="position-relative rounded-top progress-wrapper" data-color="#ffbcaa">
+          <img src="/images/icons/tool-box.png" alt="Bag full of construction tools">
+          <!-- <div class="position-relative rounded-top progress-wrapper" data-color="#ffbcaa">
             <div class="wave" data-progress="50%"></div>
-          </div>
+          </div> -->
           <div class="card-footer bg-white">
-            <h4 class="card-title">Tools:  Azure Data Studio, Visual Studio, Visual Studio Code, SSMS, Git Bash</h4>
+            <h3 class="card-title pb-2">Tools:</h3>
+            
+            <ul class="li-padding text-left" style="list-style-type: disc;">
+              
+              <li>Azure Data Studio</li>
+              <li>Visual Studio</li>
+              <li>Visual Studio Code</li>
+              <li>SSMS</li>
+              <li>Git Bash</li>
+            
+            </ul>
+         
           </div>
         </div>
       </div>
     </div>
   </div>
+  
 </section>
 <!-- /skills -->
 
@@ -227,6 +283,7 @@ FACEBOOK: https://www.facebook.com/themefisher
       </div>
     </div>
   </div>
+  
 </section>
 <!-- ./experience -->
 
@@ -262,7 +319,8 @@ FACEBOOK: https://www.facebook.com/themefisher
           </div>
         </div>
       </div>
-
+      <img class="img-fluid edu-bg-image w-100" src="images/backgrounds/education-bg.png" alt="bg-image">
+    </section>
      
       <!-- awards -->
 <section class="section position-relative">
@@ -618,24 +676,27 @@ FACEBOOK: https://www.facebook.com/themefisher
   </div>
 </section> -->
 <!-- /contact -->
-
+</main>
 <!-- footer -->
-<footer class="bg-dark footer-section">
-  <div class="section">
+ <!-- <footer class="bg-dark"> -->
+  <footer class="bg-dark">
+ <div class="section">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <h5 class="text-light">Email</h5>
-          <p class="text-white paragraph-lg font-secondary">steve.fruits@email.com</p>
-        </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Phone</h5>
-          <p class="text-white paragraph-lg font-secondary">+880 2544 658 256</p>
-        </div>
-        <div class="col-md-4">
+        <!-- <div class="offset-5 col-md-2">
+          
+          <a class="text-white" href="https://www.linkedin.com/in/joshua-christian-a260aaba/"><img src="/images/icons/linkedin.png" alt="LinkedIn Icon"></a> -->
+          <!-- <p class="text-white paragraph-lg font-secondary">steve.fruits@email.com</p> -->
+        <!-- </div>
+        <div class="col-md-2">
+          
+          <a class="text-white" href="https://github.com/joshdchristian1"><img src="/images/icons/github.png" alt="Github Icon"></a> -->
+          <!-- <p class="text-white paragraph-lg font-secondary">+880 2544 658 256</p> -->
+        <!-- </div> -->
+        <!-- <div class="col-md-4">
           <h5 class="text-light">Address</h5>
           <p class="text-white paragraph-lg font-secondary">125/A, CA Commercial Area, California, USA</p>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -643,7 +704,8 @@ FACEBOOK: https://www.facebook.com/themefisher
     <p class="mb-0 text-light">Copyright &copy;<script>
         var CurrentYear = new Date().getFullYear()
         document.write(CurrentYear)
-      </script> Designed &amp; Developed by <a class="text-white-50" href="Themefisher">Themefisher</a></p>
+      </script> Designed by <a class="text-white-50" href="Themefisher">Themefisher</a></p>
+      <p>Customized by Josh Christian</p>
   </div>
 </footer>
 <!-- /footer -->
@@ -659,6 +721,20 @@ FACEBOOK: https://www.facebook.com/themefisher
 
 <!-- Main Script -->
 <script src="js/script.js"></script>
+<script src="aos/aos.js"></script>
+
+<script>
+var i = 0;
+  var txt = 'Full Stack Developer'; /* The text */
+  var speed = 100; /* The speed/duration of the effect in milliseconds */
+  
+ setInterval(function typeWriter() {
+    if (i < txt.length) {
+      document.getElementById("typing").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+  },2000)</script>
 
 </body>
 </html>

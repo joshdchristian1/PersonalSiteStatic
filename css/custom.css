@@ -1,115 +1,167 @@
-.xp img{
-    height: 118px;
-    width: 118px;
-    padding: 1em;
+.xp img {
+  height: 118px;
+  width: 118px;
+  padding: 1em;
 }
 
-.name{
-    font-size: 3em;
-    font-weight: bold;
+.name {
+  font-size: 3em;
+  font-weight: bold;
 }
 
-
-section.classmate img{
-    height: 400px;
-    width: 300px;
-    border: 5px solid #485561;
-    border-radius: 10px;
+section.classmate img {
+  height: 400px;
+  width: 300px;
+  border: 5px solid #485561;
+  border-radius: 10px;
 }
 
-.navbarbg{
-    background-color: #263f57 !important;
+.navbarbg {
+  background-color: #263f57 !important;
 }
 
-.font-color-blue{
-    color: rgb(37, 40, 189);
+.font-color-blue {
+  color: rgb(37, 40, 189);
 }
 
-.column-left{
-    float: left;
-    width: 50%;
+.column-left {
+  float: left;
+  width: 50%;
 }
-.column-right{
-    float: right;
-    width: 50%;
+.column-right {
+  float: right;
+  width: 50%;
 }
-.row-after{
-    clear: both;
+.row-after {
+  clear: both;
 }
-.text-size{
-    font-size:medium;
+.text-size {
+  font-size: medium;
 }
-.text-size-xlarge{
-    font-size: x-large;
+.text-size-xlarge {
+  font-size: x-large;
 }
-.ul-padding{
-    padding-left: 4em;
-    font-weight: bold;
-    
+.ul-padding {
+  padding-left: 4em;
+  font-weight: bold;
 }
-.li-padding li{
-    padding-bottom: .5em;
-    font-weight:lighter
-    
+.li-padding li {
+  padding-bottom: 0.5em;
+  font-weight: lighter;
 }
-.clear-float{
-    clear: both;
+.clear-float {
+  clear: both;
 }
 
 .bg-prime {
-    background: #263f57  !important;
-  }
-
-  .customnavigation {
-    padding: 20px 130px;
-    transition: 0.3s ease;
-  }
-
-  .navbar-brand-custom {
-    display: inline-block;
-    padding-top: 0.3125rem;
-    padding-bottom: 0.3125rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap;
-  }
-
-  .logo{
-    height: .5em !important;
-    width: 1em !important;
-    padding: 1em !important;
+  background: #263f57 !important;
 }
 
- section.skills-icon img{
-    height: 100%;
-    width: 100%;
-    padding: 5em;
-    overflow: hidden;
+.customnavigation {
+  padding: 20px 130px;
+  transition: 0.3s ease;
 }
 
-footer.footer-icon img{
-    
-    
-    width: 35%;
-    
-    
+.navbar-brand-custom {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.logo {
+  height: 0.5em !important;
+  width: 1em !important;
+  padding: 1em !important;
+}
+
+section.skills-icon img {
+  height: 95%;
+  width: 95%;
+  padding: 5em;
+  overflow: hidden;
+}
+
+footer.footer-icon img {
+  width: 35%;
+}
+section.skills-font li {
+  color: #485561;
+  font-size: 1em;
 }
 
 .fade-in-section {
-    opacity: 0;
-    transform: translateY(20vh);
-    visibility: hidden;
-    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
-    will-change: opacity, visibility;
-  }
-  .fade-in-section.is-visible {
-    opacity: 1;
-    transform: none;
-    visibility: visible;
-  }
-section.skills-font li{
-color: #485561;
-font-size: 1em;
-    
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
 }
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+#svg-wrapper {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 53px;
+  height: auto;
+}
+#svg-wrapper svg {
+  position: relative;
+  padding: 0px !important;
+  stroke: none;
+}
+#svg-wrapper:hover {
+  width: 56px;
+  transition: width 0.1s;
+  -webkit-transition: width 0.1s;
+  /* Safari */
+}
+
+.toggle-animation {
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: solid 1px;
+  font-family: helvetica;
+}
+
+.hover-visit{
+  
+  --h: 1.2em;
+
+  line-height: var(--h);
+  color:#656F78;
+  text-shadow: 
+    0 var(--_t,var(--h)) #366C9E,
+    0 0 var(--_c, #366C9E);
+  background: 
+    linear-gradient(#fff 0 0) 
+    bottom/100% var(--_d, 0) no-repeat;
+  overflow: hidden;
+  transition: 0.3s;
+  
+}
+.hover-visit:hover {
+  --_d: 100%;
+  --_t: 0;
+  --_c:#000;
+}
+
+section.class-name h4{
+  color: #263f57;
+}
+.btn-block{
+  
+  display: block;
+  width: 75%;
+}
+

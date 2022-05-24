@@ -192,5 +192,5 @@ function FadeInSection(props) {
         {props.children}
       </div>
     );
-  }
+  };
 
